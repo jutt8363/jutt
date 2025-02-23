@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <style>
+        /* Reset default margin and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar styling */
+        nav {
+            position: fixed; /* Fix the navbar at the top */
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: rgb(207, 203, 203);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            color: black;
+            font-weight: bold;
+        }
+
+
+        /* Main content styling */
+        section {
+            padding-top: 120px; /* Add padding to avoid content being hidden behind the fixed navbar */
+            margin-left: 100px;
+        }
+
+        details {
+            margin-bottom: 10px;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        details p, details ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body style="background-image: url('cool-background.png')">
+
+    <nav>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="FAQ.html">FAQ</a>
+        </div>
+    </nav>
+
+    
+    <section>
+        <div style="width: 40%;">
+            <h2>Cybersecurity FAQs</h2>
+
+            <details>
+                <summary>What is cybersecurity?</summary>
+                <p>Cybersecurity refers to the practice of protecting systems, networks, and data from digital attacks, unauthorized access, and damage. It involves implementing measures to ensure the confidentiality, integrity, and availability of information.</p>
+            </details>
+
+            <details>
+                <summary>What is a phishing attack?</summary>
+                <p>A phishing attack is a type of cyberattack where attackers impersonate legitimate entities to trick individuals into revealing sensitive information, such as passwords, credit card numbers, or personal data. This is often done through deceptive emails, messages, or websites.</p>
+            </details>
+
+            <details>
+                <summary>What is two-factor authentication (2FA)?</summary>
+                <p>Two-factor authentication (2FA) is a security method that requires users to provide two forms of identification before accessing an account. Typically, this involves something you know (like a password) and something you have (like a code sent to your phone).</p>
+            </details>
+
+            <details>
+                <summary>What is malware?</summary>
+                <p>Malware, short for malicious software, is any software designed to harm, exploit, or otherwise compromise a system or network. Examples include viruses, worms, ransomware, and spyware.</p>
+            </details>
+
+            <details>
+                <summary>How can I protect myself from cyberattacks?</summary>
+                To protect yourself from cyberattacks:
+                    <ul>
+                        <li>Use strong, unique passwords for all accounts.</li>
+                        <li>Enable two-factor authentication (2FA).</li>
+                        <li>Keep your software and devices updated.</li>
+                        <li>Avoid clicking on suspicious links or downloading unknown attachments.</li>
+                        <li>Use antivirus and firewall software.</li>
+                    </ul>
+                
+            </details>
+
+            <details>
+                <summary>What is a VPN, and why is it important?</summary>
+                <p>A VPN (Virtual Private Network) encrypts your internet connection and hides your IP address, making it more difficult for attackers to intercept your data. It is important for protecting your privacy, especially when using public Wi-Fi networks.</p>
+            </details>
+        </div>
+    </section>
+</body>
+</html>
